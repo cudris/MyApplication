@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    tools:context="com.example.kevincudris.myapplication.ConfirmacionDatos">
+
+    <TextView
+        android:id="@+id/confirmar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/padding_20"
+        android:textSize="@dimen/text_size_20"
+        android:text="@string/confirmar"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/padding"
+        android:textSize="@dimen/text_size"
+         />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/padding"
+        android:textSize="@dimen/text_size"
+        />
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/padding"
+        android:textSize="@dimen/text_size"
+         />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/padding"
+        android:textSize="@dimen/text_size"
+         />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/padding"
+        android:textSize="@dimen/text_size"
+         />
+
+    <Button
+        android:id="@+id/editar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center|center_horizontal"
+        android:layout_marginTop="@dimen/padding"
+        android:onClick="editarDatos"
+        android:text="@string/boton_editar"/>
+
+</LinearLayout>
